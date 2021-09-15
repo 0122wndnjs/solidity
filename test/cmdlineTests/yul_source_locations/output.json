@@ -325,6 +325,7 @@ object \"C_54\" {
                 sum := add(x, y)
             }
 
+            /// @ast-id 30
             /// @src 0:226:302  \"function f() external pure returns (int)...\"
             function fun_f_30() -> var__23 {
                 /// @src 0:262:265  \"int\"
@@ -539,6 +540,7 @@ object \"C_54\" {
             }
             /// @src 0:79:428  \"contract C...\"
 
+            /// @ast-id 53
             /// @src 0:343:426  \"function f2() m public returns (int)...\"
             function fun_f2_53() -> var__42 {
                 /// @src 0:375:378  \"int\"
@@ -950,6 +952,7 @@ object \"D_72\" {
                 sum := add(x, y)
             }
 
+            /// @ast-id 30
             /// @src 0:226:302  \"function f() external pure returns (int)...\"
             function fun_f_30() -> var__23 {
                 /// @src 0:262:265  \"int\"
@@ -1164,6 +1167,7 @@ object \"D_72\" {
             }
             /// @src 1:91:166  \"contract D is C(3)...\"
 
+            /// @ast-id 53
             /// @src 0:343:426  \"function f2() m public returns (int)...\"
             function fun_f2_53() -> var__42 {
                 /// @src 0:375:378  \"int\"
